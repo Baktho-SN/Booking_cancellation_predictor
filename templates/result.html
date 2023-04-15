@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>BOOKING CANCELLATION PREDICTOR</title>
+	<link 
+		rel="icon"  
+		href="{{url_for('static',path='images/icon.png')}}"
+	/>
+	<link 
+		rel="stylesheet" 
+		type="text/css" 
+		href="{{url_for('static',path='css/res.css')}}">
+</head>
+<body>
+	<div class = "results">
+		<br>
+		<h2>BEST PERFORMED MODELS</h2>
+		<h2>Results of Random Forest Model:</h2>
+		{% if prediction[0] >= 0.5 %}
+		<p>
+			PREDICTION: There is a higher Chance of cancellation for this booking.:(
+			 
+		</p>
+		{% elif prediction[0] < 0.5 %}
+		<p>
+        	PREDICTION: This Customer is satisfied with the hotel and will most likely not cancel. ;) 
+          
+    	</p>
+    	{% endif %}  
+
+    	<h2>Results of XGBoost Model:</h2>
+		{% if prediction[1] >= 0.5 %}
+		<p>
+			PREDICTION: There is a higher Chance of cancellation for this booking.:(
+			 
+		</p>
+		{% elif prediction[1] < 0.5 %}
+		<p>
+            PREDICTION: This Customer is satisfied with the hotel and will most likely not cancel. ;) 
+          
+    	</p>
+    	{% endif %}  
+
+    	<h2>OTHER MODELS</h2>
+    	<h2>Results of Naive Bayes Model:</h2>
+		{% if prediction[2] >= 0.5 %}
+		<p>
+			PREDICTION: There is a higher Chance of cancellation for this booking.:(
+			 
+		</p>
+		{% elif prediction[2] < 0.5 %}
+		<p>
+        	PREDICTION: This Customer is satisfied with the hotel and will most likely not cancel. ;) 
+         
+    	</p>
+    	{% endif %}  
+
+    	<h2>Results of Logistic Regression Model:</h3>
+		{% if prediction[3] >= 0.5 %}
+		<p>
+			PREDICTION: There is a higher Chance of cancellation for this booking.:(
+			 
+		</p>
+		{% elif prediction[3] < 0.5 %}
+		<p>
+        	PREDICTION: This Customer is satisfied with the hotel and will most likely not cancel. ;) 
+          
+    	</p>
+    	{% endif %}  
+
+    	<h2>Results of KNearestNeighbors Model:</h2>
+		{% if prediction[4] >= 0.5 %}
+		<p>
+			PREDICTION: There is a higher Chance of cancellation for this booking.:(
+			 
+		</p>
+		{% elif prediction[4]< 0.5 %}
+		<p>
+        	PREDICTION: This Customer is satisfied with the hotel and will most likely not cancel. ;) 
+          
+    	</p>
+    	{% endif %}  
+
+    	<h2>Results of Support Vector Machine Model:</h2>
+		{% if prediction[5] >= 0.5 %}
+		<p>
+			PREDICTION: There is a higher Chance of cancellation for this booking.:(
+			 
+		</p>
+		{% elif prediction[5] < 0.5 %}
+		<p>
+        	PREDICTION: This Customer is satisfied with the hotel and will most likely not cancel. ;) 
+          
+    	</p>
+    	{% endif %}  
+
+	</div>
+</body>
+</html>
