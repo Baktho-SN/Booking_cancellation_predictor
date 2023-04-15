@@ -1,0 +1,26 @@
+body {
+  background: #fff url(https://m.economictimes.com/thumb/msid-90724647,width-1254,height-836,resizemode-4,imgsize-28786/indian-hotels.jpg) center center/cover no-repeat;
+  color: #675A5A;
+}
+
+h2,h3 {
+  font-family: "Calibri", sans-serif;
+  text-align: center;
+  align-items: center;
+  align-content: center;
+}
+
+
+.results {
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  margin : auto;
+  border-radius: 14px;
+  background-color: #000000;
+  padding: 10px;
+  width: 650px;
+  height: 700px;
+  resize: both;
+}
+

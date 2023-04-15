@@ -1,0 +1,73 @@
+body {
+  background: #fff url(https://m.economictimes.com/thumb/msid-90724647,width-1254,height-836,resizemode-4,imgsize-28786/indian-hotels.jpg) center/cover no-repeat;
+  color: #675A5A;
+}
+
+input {
+  width: 30%;  
+  border: 4px solid #ccc; /* Gray border */
+  border-radius: 14px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  }
+
+
+select {
+  width: 30%; 
+  border: 4px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top:10px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  
+}
+
+p
+h1,
+h2,
+h3,
+h4,
+h5
+span,
+strike {
+  font-family: "Calibri" ,sans-serif;
+  color: #675A5A
+}
+
+
+
+.form-container {
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  
+}
+
+.container { 
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  margin : auto;
+  border-radius: 5px;
+  background-color: #000000;
+  padding: 10px;
+  width: 800px;
+  height: 700px;
+  resize: both;
+}
+
+
+#submit {
+  width: 20%; 
+  margin-top: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  color:black;
+  opacity: 1;
+  transition: opacity 1s ease 0s;
+}
+
+#submit:hover {
+  opacity: 0.5;
+}
