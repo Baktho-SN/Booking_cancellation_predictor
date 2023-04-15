@@ -15,7 +15,7 @@ Booking Cancellation Predictor App is used to predict whether or not a Customer 
 
 ## Dataset Description
 
-The dataset consist of several predictor (independent) variables and one target (dependent) variable, Charges. Independent variables include the lead_time,market_segment_type,avg_price_per_room,Number of special requests
+The dataset consist of several predictor (independent) variables and one target (dependent) variable, booking_status. Independent variables include the lead_time, market_segment_type, avg_price_per_room, Number of special requests
 
 The data contains the following columns:
 
