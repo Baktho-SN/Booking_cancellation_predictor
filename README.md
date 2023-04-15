@@ -1,4 +1,4 @@
-Booking Cancellation Predictor
+# Booking Cancellation Predictor
 
 Booking Cancellation Predictor App is used to predict whether or not a Customer would cancel the room booked in the hotel. Created using python's scikit-learn, Fastapi, numpy and joblib packages.
 
